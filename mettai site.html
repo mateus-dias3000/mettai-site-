@@ -1,54 +1,68 @@
-@@ -0,0 +1,53 @@
- <!DOCTYPE html>
-  <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    <title>Mettai | IA Inteligente</title>
-    <script src="https://cdn.tailwindcss.com"></script>
-  </head>
-  <body class="bg-black text-white font-sans">
-    <header class="text-center py-10">
-      <h1 class="text-4xl font-bold text-indigo-500">🤖 Mettai</h1>
-      <p class="text-gray-400 mt-2">Sua IA personalizada com tecnologia OpenAI</p>
-    </header>
-  
-    <main class="max-w-4xl mx-auto px-4">
-      <section class="mb-12">
-        <h2 class="text-2xl font-bold mb-4 text-indigo-300 text-center">Planos Disponíveis</h2>
-        <div class="grid md:grid-cols-2 gap-6">
-          <div class="bg-gray-800 p-6 rounded-xl">
-            <h3 class="text-lg font-bold text-indigo-400">Gratuito</h3>
-            <p class="text-gray-300 mt-2">GPT-3.0 com busca na web.</p>
-          </div>
-          <div class="bg-gray-800 p-6 rounded-xl">
-            <h3 class="text-lg font-bold text-indigo-400">Pago</h3>
-            <p class="text-gray-300 mt-2">GPT-4 Mini, web rápida.<br>R$1,50 por token.</p>
-          </div>
-          <div class="bg-gray-800 p-6 rounded-xl">
-            <h3 class="text-lg font-bold text-indigo-400">Empresa</h3>
-            <p class="text-gray-300 mt-2">GPT-4.5, imagens, investigação, envio de arquivos.<br>R$2,00 por token.</p>
-          </div>
-          <div class="bg-gray-800 p-6 rounded-xl">
-            <h3 class="text-lg font-bold text-indigo-400">Desenvolvedor</h3>
-            <p class="text-gray-300 mt-2">GPT-4 Mini-High, imagens, lousa, arquivos.<br>R$10,00 por token.</p>
-          </div>
-          <div class="bg-gray-800 p-6 rounded-xl md:col-span-2">
-            <h3 class="text-lg font-bold text-indigo-400">Plus</h3>
-            <p class="text-gray-300 mt-2">Todos os recursos combinados em um só plano.<br>R$20,00 por token.</p>
-          </div>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mettai | Planos de IA</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-black text-white font-sans">
+  <header class="text-center py-10">
+    <h1 class="text-4xl font-bold text-indigo-500">🤖 Mettai</h1>
+    <p class="text-gray-400 mt-2">Sua IA personalizada com tecnologia OpenAI</p>
+  </header>
+
+  <main class="max-w-4xl mx-auto px-4">
+    <section class="mb-12">
+      <h2 class="text-2xl font-bold mb-6 text-indigo-300 text-center">Escolha seu plano</h2>
+      <div class="grid md:grid-cols-2 gap-6">
+
+        <!-- Gratuito -->
+        <div class="bg-gray-800 p-6 rounded-xl shadow">
+          <h3 class="text-xl font-bold text-indigo-400">Plano Gratuito</h3>
+          <p class="text-gray-300 mt-2">GPT-3.0 com busca na web.</p>
+          <p class="text-sm text-gray-500 mt-2">💰 Gratuito</p>
         </div>
-      </section>
-  
-      <div class="text-center mt-8">
-        <a href="https://mettai.onrender.com" class="bg-indigo-600 hover:bg-indigo-700 px-6 py-3 rounded-lg font-bold text-white">
-          Acessar IA
-        </a>
+
+        <!-- Pago -->
+        <div class="bg-gray-800 p-6 rounded-xl shadow">
+          <h3 class="text-xl font-bold text-indigo-400">Plano Pago</h3>
+          <p class="text-gray-300 mt-2">GPT-4 Mini, busca na web rápida.</p>
+          <p class="text-sm text-gray-500 mt-2">💰 R$1,50 por token</p>
+        </div>
+
+        <!-- Empresa -->
+        <div class="bg-gray-800 p-6 rounded-xl shadow">
+          <h3 class="text-xl font-bold text-indigo-400">Plano Empresa</h3>
+          <p class="text-gray-300 mt-2">GPT-4.5, imagens, investigação, envio de arquivos, web adaptada para negócios.</p>
+          <p class="text-sm text-gray-500 mt-2">💰 R$2,00 por token</p>
+        </div>
+
+        <!-- Desenvolvedor -->
+        <div class="bg-gray-800 p-6 rounded-xl shadow">
+          <h3 class="text-xl font-bold text-indigo-400">Plano Desenvolvedor</h3>
+          <p class="text-gray-300 mt-2">GPT-4 Mini-High, geração de imagens, lousa integrada, busca e upload de arquivos.</p>
+          <p class="text-sm text-gray-500 mt-2">💰 R$10,00 por token</p>
+        </div>
+
+        <!-- Plus -->
+        <div class="bg-gray-800 p-6 rounded-xl md:col-span-2 shadow">
+          <h3 class="text-xl font-bold text-indigo-400">Plano Plus</h3>
+          <p class="text-gray-300 mt-2">Todos os recursos combinados em um só plano premium e otimizado.</p>
+          <p class="text-sm text-gray-500 mt-2">💰 R$20,00 por token</p>
+        </div>
       </div>
-    </main>
-  
-    <footer class="text-center text-gray-500 text-sm mt-16 mb-4">
-      © 2024 Mettai. Contato: <a href="mailto:mateustristaodias@gmail.com" class="text-indigo-300">mateustristaodias@gmail.com</a>
-    </footer>
-  </body>
-  </html>
+    </section>
+
+    <div class="text-center mt-10">
+      <a href="https://mettai.onrender.com" class="bg-indigo-600 hover:bg-indigo-700 px-6 py-3 rounded-lg font-bold text-white">
+        Acessar IA
+      </a>
+    </div>
+  </main>
+
+  <footer class="text-center text-gray-500 text-sm mt-16 mb-4">
+    © 2025 Mettai. Contato: <a href="mailto:mateustristaodias@gmail.com" class="text-indigo-300">mateustristaodias@gmail.com</a>
+  </footer>
+</body>
+</html>
